@@ -1,0 +1,47 @@
+/* A quiet macOS-inspired surface, scoped to this extension only. */
+#panel .astro-vitals.panel-button {
+    -natural-hpadding: 8px;
+    -minimum-hpadding: 4px;
+    border-radius: 6px;
+}
+.astro-strip { spacing: 4px; }
+.astro-metric { spacing: 2px; padding: 2px 7px; }
+.astro-row { spacing: 5px; }
+.astro-divider { background-color: rgba(235, 240, 255, 0.15); }
+#panel .astro-vitals .astro-caption {
+    font-family: Inter, sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #afb5c4;
+}
+#panel .astro-vitals .astro-value {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.astro-track { background-color: rgba(220, 230, 250, 0.07); border-radius: 1px; }
+.astro-fill { border-radius: 1px; opacity: 0.7; }
+.astro-menu {
+    -arrow-background-color: transparent;
+    -arrow-border-color: transparent;
+    -arrow-border-width: 0;
+    -arrow-base: 0;
+    -arrow-rise: 0;
+}
+.astro-menu .astro-menu-content {
+    background-color: rgba(31, 32, 39, 0.97);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+    font-family: Inter, sans-serif;
+    color: #ecedf2;
+}
+.astro-menu .popup-menu-item { border-radius: 7px; padding: 9px 12px; }
+.astro-menu .popup-menu-item:focus, .astro-menu .popup-menu-item:hover { background-color: rgba(255,255,255,0.07); }
+.astro-menu-heading { spacing: 5px; padding: 3px 0 6px; }
+.astro-menu-title { font-size: 16px; font-weight: 600; color: #f2f3f7; }
+.astro-menu-subtitle { font-size: 11px; color: #a5a9b7; }
+.astro-detail-label { font-size: 12px; color: #d0d3dd; }
+.astro-detail-value { font-family: Inter, sans-serif; font-size: 12px; font-weight: 500; padding-left: 24px; color: #edf0f7; }
+.astro-menu-note { font-size: 10px; color: #a5a9b7; }

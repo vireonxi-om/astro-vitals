@@ -1,0 +1,9 @@
+{
+  "uuid": "astro-vitals@local",
+  "name": "Astro Vitals",
+  "description": "Quiet, compact CPU and GPU temperatures, RAM and VRAM in your top bar. Built locally for this desktop.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.astro-vitals",
+  "session-modes": ["user"],
+  "version": 1
+}

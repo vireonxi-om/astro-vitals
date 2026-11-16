@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.astro-vitals" path="/org/gnome/shell/extensions/astro-vitals/">
+    <key name="refresh-seconds" type="i"><default>3</default><range min="2" max="10"/><summary>Seconds between sensor samples</summary></key>
+    <key name="animations" type="b"><default>true</default><summary>Brief transitions when meter values change</summary></key>
+    <key name="memory-percent" type="b"><default>false</default><summary>Display memory as percent instead of GiB</summary></key>
+  </schema>
+</schemalist>
